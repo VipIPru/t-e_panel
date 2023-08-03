@@ -12,12 +12,11 @@ from telethon.tl.types import Message, ChatAdminRights
 from .. import loader, utils 
 from ..inline.types import InlineCall 
 
- @loader.tds 
- class TriggerEarthPanel(loader.Module): 
-         '''Модуль для управления вашими контейнерами в @Triggerhub_Bot и @triggerpanel_bot''' 
-         strings = { 
-             "name": "T-E Panel" 
-         } 
+@loader.tds 
+class TriggerEarthPanel(loader.Module): 
+        '''Модуль для управления вашими контейнерами в @Triggerhub_Bot и @triggerpanel_bot''' 
+        strings = { 
+            "name": "T-E Panel"          } 
          @loader.command() 
          async def tup(self, message): 
                  ''' - Включить контейнер ''' 
