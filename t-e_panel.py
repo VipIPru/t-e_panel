@@ -1,4 +1,3 @@
-__version__ = (0,1,0) 
  # meta developer: @bruhHikkaModules 
  # created for @TriggerEarth 
  # Автор модуля не несёт ответственность за происходящее на хостинге 
