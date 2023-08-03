@@ -1,16 +1,17 @@
- # meta developer: @bruhHikkaModules 
- # created for @TriggerEarth 
- # Автор модуля не несёт ответственность за происходящее на хостинге 
- # ❌✅  
- import re 
- import telethon 
- import asyncio 
- from telethon import events,functions 
- from telethon.errors.rpcerrorlist import YouBlockedUserError 
- from telethon.tl.types import Message, ChatAdminRights 
- from .. import loader, utils 
- from ..inline.types import InlineCall 
-  
+__version__ = (0,1,0)
+# meta developer: @bruhHikkaModules 
+# created for @TriggerEarth 
+# Автор модуля не несёт ответственность за происходящее на хостинге 
+# ❌✅  
+import re 
+import telethon 
+import asyncio 
+from telethon import events,functions 
+from telethon.errors.rpcerrorlist import YouBlockedUserError 
+from telethon.tl.types import Message, ChatAdminRights 
+from .. import loader, utils 
+from ..inline.types import InlineCall 
+
  @loader.tds 
  class TriggerEarthPanel(loader.Module): 
          '''Модуль для управления вашими контейнерами в @Triggerhub_Bot и @triggerpanel_bot''' 
